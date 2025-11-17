@@ -7,7 +7,7 @@
 
 # Enable torch compile. Can +30% speed on newer Nivida hardware (RTX 3000+).
 # Note: It needs to compile the model first time you enable and run it, usually takes 30~60s.
-ENABLE_TORCH_COMPILE = True # True / False
+ENABLE_TORCH_COMPILE = False # True / False
 
 # Lumina 2 can't run in fp16 mode, because some activation tensors in the middle of the model are overflowed.
 # Enable this can let you run Lumina 2 in fp16 mode. It will recompute the layer in fp32 again if any overflow was detected.
