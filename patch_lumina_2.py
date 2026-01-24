@@ -31,7 +31,7 @@ DEBUG_RECOMPUTE_PRINT = True
 # If you need LoRA, you can:
 # - (fast) Disable this setting, then merge LoRA into a checkpoint and save it in advance, then enable this setting.
 # - (slow) Disable this setting, and use LoRA.
-REDUCE_WEIGHT = False
+REDUCE_WEIGHT = True
 
 # Do NOT change this if you don't know what it is.
 REDUCE_WEIGHT_DIV_FACTOR = 32
