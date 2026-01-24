@@ -16,7 +16,7 @@
 ##### Settings #####
 
 # Main switch.
-ENABLE_PATCH = False
+ENABLE_PATCH = True
 
 # This patch can handle overflow in fp16 mode.
 # It will automatically recompute the layer in fp32 again if overflow was detected.
