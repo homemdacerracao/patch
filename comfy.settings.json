@@ -1,0 +1,8 @@
+{
+    "Comfy.InstalledVersion": "1.41.21",
+    "Comfy.TutorialCompleted": true,
+    "Comfy.VueNodes.Enabled": true,
+    "LiteGraph.Canvas.MaximumFps": 60,
+    "Comfy.LinkRenderMode": 0,
+    "Comfy.DOMClippingEnabled": false
+}
